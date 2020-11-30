@@ -1,0 +1,112 @@
+body {
+  background-color: #403f40;
+  margin: 5%;
+}
+h1, h3, h4, h5 {
+  font-family: 'Noto Sans', sans-serif; 
+  color: orange;
+}
+#fisicasas{
+  position: relative;
+}
+#branco {
+  color: white;
+}
+li {
+  color:orange;
+  list-style-image: url("imgs/pato_hh.png");
+}
+a:link{
+  color: black;
+}
+a:visited{
+  color: black;
+}
+a:hover {
+  color: orange;
+}
+p {
+  clear: left;
+  font-family: 'Overpass Mono', sans-serif;
+  color:  white;
+}
+#pato {
+  height: 1em;
+    position: absolute;
+    top: 0.2em;
+    left: 6em;
+    transition: all 2s ease;
+
+}
+#fisicasas:hover #pato{
+  opacity: 0;
+  transform: translateX(100vw);
+}
+#velocidade{
+  height: 30%;
+  width: 35%;
+  
+}
+.vel_med {
+  display: block;
+  float: left;
+}
+.button{
+  display: inline-block;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Luckiest Guy";
+  font-size: 25px;
+  padding: 7px;
+  width: 150px;
+  transition: all 0.1s;
+  cursor: pointer;
+  position: relative;
+}
+
+
+.button:active {
+  background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#funcao {
+  height: 35%;
+  width: 35%;
+}
+
+#p1 {
+  clear: left;
+}
+li {
+  font-family: 'Overpass Mono', sans-serif;
+}
+#easter {
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+#easter:hover {
+  opacity: 100;
+}
+.links {
+  display: block;
+  margin-bottom: 1em;
+}
+#imgmruv{
+  display : block;
+  height: 50%;
+  width: 50%;
+}
+.img_center {
+  float: right;
+  display: block;
+  margin-left: 5%;
+  margin-right: auto;
+}
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
